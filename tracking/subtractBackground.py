@@ -24,7 +24,7 @@ folder = "D:\\Onderzoek\\python\\simulation\\runs\\17-04-18\\run6\\ParticleDiame
 folder  = "D:\\Onderzoek\\data\\11-04-2018\\run10" 
 
 
-trackingObject = Tracking(folder, 31, 1750, 4000, 10, 0.225664, h5name = "data.h5", FPS = 40,useFrames = -1,makeTree = False)
+trackingObject = Tracking(folder, 31, 1750, 4000, 10, 0.225664, h5name = "data.h5", FPS = 40,useFrames = -1,createTree = False)
 trackingObject.currentPath = folder
 maxFrames = 50
 
